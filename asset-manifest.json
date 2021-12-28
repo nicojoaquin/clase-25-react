@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/template-simple-react/static/css/main.bb969a28.chunk.css",
-    "main.js": "/template-simple-react/static/js/main.77863f72.chunk.js",
-    "main.js.map": "/template-simple-react/static/js/main.77863f72.chunk.js.map",
-    "runtime-main.js": "/template-simple-react/static/js/runtime-main.fa1b676d.js",
-    "runtime-main.js.map": "/template-simple-react/static/js/runtime-main.fa1b676d.js.map",
-    "static/css/2.4be38407.chunk.css": "/template-simple-react/static/css/2.4be38407.chunk.css",
-    "static/js/2.2ce38926.chunk.js": "/template-simple-react/static/js/2.2ce38926.chunk.js",
-    "static/js/2.2ce38926.chunk.js.map": "/template-simple-react/static/js/2.2ce38926.chunk.js.map",
-    "index.html": "/template-simple-react/index.html",
-    "static/css/2.4be38407.chunk.css.map": "/template-simple-react/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.bb969a28.chunk.css.map": "/template-simple-react/static/css/main.bb969a28.chunk.css.map",
-    "static/js/2.2ce38926.chunk.js.LICENSE.txt": "/template-simple-react/static/js/2.2ce38926.chunk.js.LICENSE.txt",
-    "static/media/carrousel-3.424560c4.jpg": "/template-simple-react/static/media/carrousel-3.424560c4.jpg"
+    "main.css": "/clase-25-react/static/css/main.69c1d0a3.chunk.css",
+    "main.js": "/clase-25-react/static/js/main.f8b7d3b8.chunk.js",
+    "main.js.map": "/clase-25-react/static/js/main.f8b7d3b8.chunk.js.map",
+    "runtime-main.js": "/clase-25-react/static/js/runtime-main.4e4b4c41.js",
+    "runtime-main.js.map": "/clase-25-react/static/js/runtime-main.4e4b4c41.js.map",
+    "static/css/2.4be38407.chunk.css": "/clase-25-react/static/css/2.4be38407.chunk.css",
+    "static/js/2.2ce38926.chunk.js": "/clase-25-react/static/js/2.2ce38926.chunk.js",
+    "static/js/2.2ce38926.chunk.js.map": "/clase-25-react/static/js/2.2ce38926.chunk.js.map",
+    "index.html": "/clase-25-react/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/clase-25-react/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.69c1d0a3.chunk.css.map": "/clase-25-react/static/css/main.69c1d0a3.chunk.css.map",
+    "static/js/2.2ce38926.chunk.js.LICENSE.txt": "/clase-25-react/static/js/2.2ce38926.chunk.js.LICENSE.txt",
+    "static/media/carrousel-1.9b34cf9c.jpg": "/clase-25-react/static/media/carrousel-1.9b34cf9c.jpg",
+    "static/media/carrousel-2.fd912352.jpg": "/clase-25-react/static/media/carrousel-2.fd912352.jpg",
+    "static/media/carrousel-3.424560c4.jpg": "/clase-25-react/static/media/carrousel-3.424560c4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa1b676d.js",
+    "static/js/runtime-main.4e4b4c41.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.2ce38926.chunk.js",
-    "static/css/main.bb969a28.chunk.css",
-    "static/js/main.77863f72.chunk.js"
+    "static/css/main.69c1d0a3.chunk.css",
+    "static/js/main.f8b7d3b8.chunk.js"
   ]
 }
