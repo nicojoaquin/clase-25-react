@@ -3,7 +3,7 @@ import BlogContainer from '../components/blog/BlogContainer'
 
 const Blog = () => {
   return (
-    <Fade className="blog-container p-5">
+    <Fade className="card-container p-5">
       <BlogContainer />
     </Fade>
   )

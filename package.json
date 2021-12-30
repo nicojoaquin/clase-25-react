@@ -1,6 +1,5 @@
 {
   "name": "template-simple-react",
-  "homepage": "https://nicojoaquin.github.io/clase-25-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
