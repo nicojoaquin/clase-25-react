@@ -1,18 +1,30 @@
-import { Component } from "react";
-import CardContainer from "./components/cards/CardContainer";
-import Carrousel from "./components/carrousel/Carrousel";
-import Footer from "./components/footer/Footer";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
 import Header from "./components/header/Header";
+import Home from './pages/Home';
+import Footer from "./components/footer/Footer";
+import Blog from './pages/Blog';
+import Contacto from './pages/Contacto';
 
-export default class App extends Component {
-  render() {
+const App = () => {
+
     return (
-      <main className="container-fluid">
-        <Header />
-        <Carrousel />
-        <CardContainer />
-        <Footer />
-      </main>
+      <Router>
+        <main className="container-fluid">
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/blog" element={<Blog/>} />
+            <Route path="/formulario" element={<Contacto/>} />
+          </Routes>
+          <Footer />
+        </main>
+      </Router>
     );
-  }
+  
 }
+
+export default App;

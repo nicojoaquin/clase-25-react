@@ -11,9 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.slider {
+.card-container {
   background-color: yellow;
+}
+
+.blog-container {
+  background-color: yellow;
+  height: 100vh !important;
 }
 
 .carousel-control-prev-icon,
@@ -36,4 +40,23 @@ code {
   content: "<";
   font-size: 55px;
   color: black;
+}
+
+@media (max-width: 770px) {
+  .img-blog {
+    width: 90%;
+  }
+}
+
+@media (max-width: 910px) {
+  .cards {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .form {
+    width: 80% !important;
+  }
 }
