@@ -33,13 +33,13 @@ const Carrousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="w-100" src={carrousel3} alt="" />;
+          <img className="w-100" src={carrousel3} height={680} alt="" />;
         </div>
         <div className="carousel-item">
-          <img className="w-100" src={carrousel2} alt="" />;
+          <img className="w-100" src={carrousel2} height={680} alt="" />;
         </div>
         <div className="carousel-item">
-          <img className="w-100" src={carrousel} alt="" />;
+          <img className="w-100" src={carrousel} height={680} alt="" />;
         </div>
       </div>
       <button
