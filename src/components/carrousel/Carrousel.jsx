@@ -6,7 +6,7 @@ const Carrousel = () => {
   return (
     <div
       id="carouselExampleIndicators"
-      className="carousel slide h-75 p-3"
+      className="carousel slide mb-5"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">
@@ -33,13 +33,13 @@ const Carrousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="w-100" src={carrousel3} height={680} alt="" />;
+          <img className="w-100" src={carrousel3} height={680} alt="" />
         </div>
         <div className="carousel-item">
-          <img className="w-100" src={carrousel2} height={680} alt="" />;
+          <img className="w-100" src={carrousel2} height={680} alt="" />
         </div>
         <div className="carousel-item">
-          <img className="w-100" src={carrousel} height={680} alt="" />;
+          <img className="w-100" src={carrousel} height={680} alt="" />
         </div>
       </div>
       <button

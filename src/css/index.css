@@ -11,6 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.nav-link:hover {
+  color: rgb(172, 170, 170) !important;
+  transition: 0.3s;
+}
+
 .card-container {
   background-color: yellow;
 }
@@ -40,6 +46,12 @@ code {
   content: "<";
   font-size: 55px;
   color: black;
+}
+
+@media (max-width: 550px) {
+  .card-text {
+    font-size: 70%;
+  }
 }
 
 @media (max-width: 770px) {

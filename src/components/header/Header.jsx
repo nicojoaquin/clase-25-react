@@ -6,7 +6,9 @@ const Header = () => {
     <header className="navbar navbar-expand-lg navbar-light bg-ligt">
       <nav className="container-fluid">
         <div className="d-flex align-items-center flex-wrap">
-          <img src={headerImg} alt="" />
+          <Link to="/">
+            <img src={headerImg} alt="" />
+          </Link>
           <ul className="d-flex">
             <Link to="/" className="nav-link text-secondary">
               Home
